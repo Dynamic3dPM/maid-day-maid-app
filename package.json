@@ -4,20 +4,36 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-amplify/react-native": "^1.1.7",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "ampx": "^0.2.2",
+    "aws-amplify": "^6.13.3",
+    "cache": "^3.0.0",
     "expo": "~52.0.37",
+    "expo-dev-client": "~5.0.12",
+    "expo-router": "~4.0.17",
     "expo-status-bar": "~2.0.1",
+    "expo-system-ui": "^4.0.8",
     "react": "18.3.1",
     "react-native": "0.76.7"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.14.1",
+    "@aws-amplify/backend-cli": "^1.4.11",
     "@babel/core": "^7.25.2",
+    "@types/aws-sdk": "^0.0.42",
     "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
+    "aws-cdk": "^2.1003.0",
+    "aws-cdk-lib": "^2.182.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   },
   "private": true
 }
